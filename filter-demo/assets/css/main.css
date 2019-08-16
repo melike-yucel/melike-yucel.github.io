@@ -1,0 +1,47 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+	width: 100%;
+	background-color: lightgrey;
+	padding: 10px;
+/* bottom, left, blur, colour */ 
+	box-shadow: 2px 2px 2px grey;
+}
+
+.nav-item {
+	display: inline-block;
+/* top, bottom, left and right */ 
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.title {
+	font-size: 10.4vw;
+	font-family: Arial Black;
+	color: lightgrey;
+
+}
+/* parent and child */ 
+.research {
+	display: flex;
+
+}
+
+/* 33.333 of the research of 100% */ 
+.research-item {
+	flex: 0 0 33.333%;
+}
+
+/* classes are green elements are pink */ 
+.research-item img {
+	width: 100%;
+
+}
