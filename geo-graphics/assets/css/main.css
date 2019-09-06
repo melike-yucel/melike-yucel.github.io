@@ -1,0 +1,125 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+/* IP */
+
+/* background-color:red; */
+/* background-color:lime; */
+/* background-color:blue; */
+/* background-color:gray; */
+/* background-color:magenta; */
+
+
+
+.ip{
+width:100vw;
+height:100vh;
+background-color: darkgray;
+display: flex;
+/* horizontal */
+align-items: center;
+/* vertical */
+justify-content:center;
+
+
+}
+
+/* use vw size not px */
+.ip-text{
+	font-size: 15vw;
+	color: blue;
+	font-family: bookman;
+
+
+}
+
+/* checkers */
+
+.checkers{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-wrap: wrap;
+
+
+
+}
+
+.checkers-black{
+flex:0 0 50%;
+height:50vh;
+background-color:black;
+
+}
+
+.checkers-white{
+flex:0 0 50%;
+height:50vh;
+background-color:gray;
+background-image:linear-gradient;
+
+}
+
+/* checkers-TYPE */
+
+.checkers-type{
+width:100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content:center;
+position: fixed;
+top:0;
+left:0;
+}
+
+.checkers-text{
+font-size: 20vw;
+color: blue;
+/* border-radius:1vw;*/ 
+/* background-color: red; 
+	background-color: transparent (darkgray);*/ 
+padding:5vw;
+
+}
+
+
+/* user */
+
+.user{
+width:100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content:center;
+position: fixed;
+background-color: gray;
+
+
+}
+
+.avatar{
+width:25vw;
+height:25vw;
+background-color: orange;
+display: flex;
+align-items: center;
+justify-content:center;
+border-radius: 50%;
+
+}
+
+.letter{
+font-family: helvetica;
+border-radius: 7;
+font-size: 20vw;
+color: white;
+
+
+}
