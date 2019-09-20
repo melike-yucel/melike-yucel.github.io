@@ -160,7 +160,7 @@ height:50vh; */
 
 .num{
   font-family: helvetica;
-  font-size: 50vh;
+  font-size: 25vw;
   text-align: left;
   padding-left: 15px;
   
@@ -168,17 +168,11 @@ height:50vh; */
 
 .boron{
   font-family: helvetica;
-  font-size: 50vh;
+  font-size: 25vw;
   text-align: center;
   
 }
 
-.letterb{
-  font-family: helvetica;
-  font-size: 150vh;
-  font-weight: 700;
-  text-align: center;
-}
 
 .boron-container{
   width: 100%;
