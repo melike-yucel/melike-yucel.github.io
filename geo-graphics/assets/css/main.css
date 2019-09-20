@@ -246,3 +246,44 @@ height:50vh; */
   object-fit: contain;
 }
 
+/* sol3 */
+
+.bg-blue {
+  background:blue;
+}
+
+.bg-purple {
+  background: magenta;
+}
+.bg-black {
+  background:black;
+}
+.bg-gray {
+  background:darkgray;
+}
+
+.bg-green {
+  background:lime;
+}
+
+.bg-red {
+  background:red;
+}
+
+.bg-white {
+background: #f3f4ec;
+  }
+
+.text-container {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.text {
+  font-family: Arial;
+  font-size:35vw;
+  color: #666600;
+}
