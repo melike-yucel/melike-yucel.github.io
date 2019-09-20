@@ -176,6 +176,32 @@ height:50vh; */
   }
 }
 
+.widget-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.sparkle{
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+.sparkle img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/*boron*/
+
 .allboron{
   background-color: lime;
   flex-wrap: wrap;
@@ -196,7 +222,6 @@ height:50vh; */
   text-align: center;
   
 }
-
 
 .boron-container{
   width: 100%;
@@ -220,3 +245,4 @@ height:50vh; */
   height: 100%;
   object-fit: contain;
 }
+
