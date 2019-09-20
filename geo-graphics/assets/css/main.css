@@ -92,34 +92,64 @@ padding:5vw;
 
 /* user */
 
-.user{
+.all{
+background-color: black;
 width:100vw;
 height:100vh;
 display: flex;
-align-items: center;
-justify-content:center;
-position: fixed;
-background-color: gray;
+flex-wrap: wrap;
+padding: 4px 4px;
 
 
 }
 
-.avatar{
-width:25vw;
-height:25vw;
-background-color: orange;
-display: flex;
-align-items: center;
+.home{
+flex: 25%;
+max-width: 25%;
+padding: 4px 4px;
+
+}
+
+.widget{
+width:100%;
+height:100%;
+/*flex:0 0 50%;
+height: 50vh;*/
+background-color: white;
+border-radius: 22%;
+
+margin-top: 0vh;
 justify-content:center;
+
+
+}
+
+.circle{
+width:100%;
+height:100%;
+background-color: black;
 border-radius: 50%;
 
+margin-top: 0vh;
+justify-content:center;
+/* flex:0 0 50%;
+height:50vh; */
 }
 
-.letter{
-font-family: helvetica;
-border-radius: 7;
-font-size: 20vw;
-color: white;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 400px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 }
