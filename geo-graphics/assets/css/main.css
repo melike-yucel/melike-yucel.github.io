@@ -39,13 +39,15 @@ justify-content:center;
 
 }
 
+
+
 /* checkers */
 
 .checkers{
-	width:100%;
-	height:100%;
-	display:flex;
-	flex-wrap: wrap;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-wrap: wrap;
 
 
 
@@ -54,14 +56,14 @@ justify-content:center;
 .checkers-black{
 flex:0 0 50%;
 height:50vh;
-background-color:black;
+background-color:yellow;
 
 }
 
 .checkers-white{
 flex:0 0 50%;
 height:50vh;
-background-color:gray;
+background-color:gainsboro;
 background-image:linear-gradient;
 
 }
@@ -80,14 +82,16 @@ left:0;
 }
 
 .checkers-text{
+  font-family: webdings;
 font-size: 20vw;
-color: blue;
-/* border-radius:1vw;*/ 
-/* background-color: red; 
-	background-color: transparent (darkgray);*/ 
-padding:5vw;
+color: yellow;
+border-radius:100vw;
+background-color: gainsboro; 
+  background-color: transparent (darkgray); 
+padding:6vw;
 
 }
+
 
 
 /* widget */
@@ -140,41 +144,15 @@ box-shadow:3px 3px 15px 6px black;
 .circle{
 width:100%;
 height:100%;
-background-image: linear-gradient(white, darkgray, white);
+background-image: black;
 border-radius: 50%;
 margin-top: 0vh;
 justify-content:center;
-animation: bgpos 2s infinite linear;
 /* flex:0 0 50%;
 height:50vh; */
 }
 
-@keyframes bgpos {
-  0% {
-  background-position:0 300px;
-  }
 
-  100% {
-  background-position:0 0px;
-  }
-}
-
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 400px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 .widget-container{
   width: 100%;
@@ -220,6 +198,7 @@ height:50vh; */
   font-family: helvetica;
   font-size: 25vw;
   text-align: center;
+
   
 }
 
@@ -248,30 +227,12 @@ height:50vh; */
 
 /* sol3 */
 
-.bg-blue {
-  background:blue;
-}
+.bg-green {
+background: black;
+  }
 
 .bg-purple {
-  background: magenta;
-}
-.bg-black {
-  background:black;
-}
-.bg-gray {
-  background:darkgray;
-}
-
-.bg-green {
-  background:lime;
-}
-
-.bg-red {
-  background:red;
-}
-
-.bg-white {
-background: #f3f4ec;
+background: olive;
   }
 
 .text-container {
@@ -282,8 +243,115 @@ background: #f3f4ec;
   justify-content: center;
 }
 
-.text {
-  font-family: Arial;
-  font-size:35vw;
-  color: #666600;
+.sol-text {
+  font-family: arial;
+  font-size:26vw;
+  color: black;
+   text-shadow: 10px 5px 15px white;
+}
+
+.russian-text {
+  font-family: arial;
+  font-size:20vw;
+  color: maroon;
+  transform: rotate(315deg);
+  transform-origin: center;
+}
+
+.hole{
+  width:50vw;
+  height:50vh;
+  position: fixed;
+  top:15%;
+  left:15%;
+  z-index: 9;
+  background-color: black;
+  border-radius:50%;
+}
+
+/* TESTCARD */
+
+
+.all-square{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+ }
+
+.square{
+  width:30vw;
+  height:25.7vw;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  left: 40vw;
+  top: 0px;
+  clip-path: inset(.3px -.2px -.5px 0px);
+
+}
+
+.square-text{
+ color:black;
+ font-size: 9vw;
+ font-family: arial;
+ margin-left: -7px;
+  
+}
+
+.pattern-container  {
+  width: 100%;
+  height:100vh;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.pattern {
+width:60%;
+}
+
+.pattern1 {
+width:40%;
+}
+
+.stripe {
+  width:100%;
+  height:5.555vh;
+}
+
+.s-white {
+  background-color: white;
+}
+
+.s-yellow {
+  background-color: yellow;
+}
+
+.s-black {
+  background-color: black;
+}
+
+.s-flex {
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+
+.half {
+  width:50%;
+  height: 50%;
+}
+
+.h-black {
+  background-color:black;
+}
+
+.h-white {
+  background-color:white;
 }
