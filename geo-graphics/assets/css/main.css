@@ -97,31 +97,18 @@ padding:6vw;
 /* widget */
 
 .all{
-background-color: white;
+background-color: black;
 width:100vw;
 height:100vh;
 display: flex;
 flex-wrap: wrap;
-padding: 5px 5px;
-border-radius: 200px;
-animation:blur 3s infinite alternate;
 
-}
-
-@keyframes blur {
-  0% {
-      filter:blur(50px);
-  }
-  
-  100%{
-      filter:blur(0px);
-  }
 }
 
 .home{
 flex: 25%;
 max-width: 25%;
-padding: 5px 5px;
+padding: 3px 3px;
 
 }
 
@@ -131,12 +118,11 @@ width:100%;
 height:100%;
 /*flex:0 0 50%;
 height: 50vh;*/
-background-color: darkgray;
+background-color: white;
 border-radius: 22%;
 
 margin-top: 0vh;
 justify-content:center;
-box-shadow:3px 3px 15px 6px black;
 
 
 }
@@ -144,7 +130,7 @@ box-shadow:3px 3px 15px 6px black;
 .circle{
 width:100%;
 height:100%;
-background-image: black;
+background-color: black;
 border-radius: 50%;
 margin-top: 0vh;
 justify-content:center;
@@ -152,30 +138,6 @@ justify-content:center;
 height:50vh; */
 }
 
-
-
-.widget-container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
-
-.sparkle{
-  width: 100vw;
-  height: 100vh;
- 
-}
-
-.sparkle img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 
 
 /*boron*/
@@ -253,7 +215,7 @@ background: olive;
 .russian-text {
   font-family: arial;
   font-size:20vw;
-  color: maroon;
+  color: red;
   transform: rotate(315deg);
   transform-origin: center;
 }
