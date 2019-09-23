@@ -181,6 +181,7 @@ height:50vh; */
   flex-wrap: wrap;
   flex:100%;
   height: 100%;
+  width:100vw;
 }
 
 .num{
@@ -189,6 +190,7 @@ height:50vh; */
   font-size: 25vw;
   text-align: left;
   padding-left: 15px;
+
   
 }
 
@@ -202,7 +204,7 @@ height:50vh; */
 }
 
 .boron-container{
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   align-items: center;
@@ -214,12 +216,12 @@ height:50vh; */
 
 .boron-image{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
  
 }
 
 .boron-image img{
-  width: 100%;
+  width: 100vw ;
   height: 100%;
   object-fit: contain;
 }
@@ -621,7 +623,7 @@ width:40%;
   width: 400px;
   height: 400px;
   transform: rotateY(45deg);
-  animation: rotateAnimation .019s linear infinite;
+  animation: rotateAnimation .2s linear infinite;
 }
 
 @keyframes rotateAnimation {
