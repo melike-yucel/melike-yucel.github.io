@@ -81,14 +81,33 @@ top:0;
 left:0;
 }
 
-.checkers-text{
-  font-family: helvetica;
-font-size: 20vw;
+.checkers-rod{
+font-family: helvetica;
+font-style: bold;
+font-size: 10vw;
 color: yellow;
-border-radius:100vw;
+border-radius:25vw;
 background-color: gainsboro; 
-  background-color: transparent (darkgray); 
-padding:6vw;
+background-color: transparent (darkgray); 
+padding:8vw;
+position: fixed;
+top:3;
+left:4.3vw;
+
+}
+
+.checkers-eye{
+font-family: helvetica;
+font-style: bold;
+font-size: 10vw;
+color: gainsboro;
+border-radius:25vw;
+background-color: yellow; 
+background-color: transparent (darkgray); 
+padding:9.2vw;
+position: fixed;
+top:3;
+left:57.3vw;
 
 }
 
