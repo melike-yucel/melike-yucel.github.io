@@ -625,8 +625,8 @@ width:40%;
 
 .flat-earth img{
   backface-visibility: visible;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   transform: rotateY(45deg);
   animation: rotateAnimation 2s linear infinite;
 
