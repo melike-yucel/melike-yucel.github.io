@@ -592,7 +592,7 @@ width:40%;
 
 
 .allflat{
-  background-color: black;
+  background-color: white;
   flex-wrap: wrap;
   flex:100%;
   width: 100%;
@@ -612,12 +612,13 @@ width:40%;
 }
 
 .flat-earth{
-    perspective: 500px; 
+    perspective: 300px; 
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   backface-visibility: visible;
+   position: relative;
  
 }
 
@@ -626,11 +627,13 @@ width:40%;
   width: 400px;
   height: 400px;
   transform: rotateY(45deg);
-  animation: rotateAnimation .2s linear infinite;
+  animation: rotateAnimation 2s linear infinite;
+
 }
 
 @keyframes rotateAnimation {
   from {transform: rotateY(45deg);}
   to {transform: rotateY(225deg);}
+
 }
-}
+
