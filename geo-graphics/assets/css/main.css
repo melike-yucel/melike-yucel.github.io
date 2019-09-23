@@ -63,7 +63,22 @@ background-color:yellow;
 .checkers-white{
 flex:0 0 50%;
 height:50vh;
-background-color:gainsboro;
+background-color:gray;
+background-image:linear-gradient;
+
+}
+
+.checkers-b{
+flex:0 0 50%;
+height:50vh;
+background-color:black;
+
+}
+
+.checkers-gray{
+flex:0 0 50%;
+height:50vh;
+background-color:gray;
 background-image:linear-gradient;
 
 }
@@ -87,7 +102,7 @@ font-style: bold;
 font-size: 10vw;
 color: yellow;
 border-radius:25vw;
-background-color: gainsboro; 
+background-color: gray; 
 background-color: transparent (darkgray); 
 padding:8vw;
 position: fixed;
@@ -100,7 +115,7 @@ left:4.3vw;
 font-family: helvetica;
 font-style: bold;
 font-size: 10vw;
-color: gainsboro;
+color: gray;
 border-radius:25vw;
 background-color: yellow; 
 background-color: transparent (darkgray); 
