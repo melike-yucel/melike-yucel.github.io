@@ -18,7 +18,7 @@ a {
 .ip{
 width:100vw;
 height:100vh;
-background-color: gainsboro ;
+background-color: black ;
 display: flex;
 /* horizontal */
 align-items: center;
@@ -31,7 +31,7 @@ justify-content:center;
 /* use vw size not px */
 .ip-text{
 	font-size: 10vw;
-	color: #2b1e0d;
+	color: red;
 	font-family: 'Waxwing';
 
 
