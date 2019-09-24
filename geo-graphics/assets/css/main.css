@@ -618,7 +618,7 @@ width:40%;
 }
 
 .spin:hover {
-    animation: spin 5s linear infinite;
+    animation: spin 3s linear infinite;
 
 }
 
