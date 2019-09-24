@@ -26,7 +26,7 @@ a {
 .ip{
 width:100vw;
 height:100vh;
-background-color: darkgray;
+background-color: #2b1e0d;
 display: flex;
 /* horizontal */
 align-items: center;
@@ -39,7 +39,7 @@ justify-content:center;
 /* use vw size not px */
 .ip-text{
 	font-size: 10.5vw;
-	color: blue;
+	color: lime;
 	font-family: 'Waxwing';
 
 
