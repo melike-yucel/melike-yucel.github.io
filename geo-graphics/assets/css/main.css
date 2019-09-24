@@ -599,11 +599,23 @@ width:40%;
 
 /* flat earth */
 
+.bg-orange{
+    background-color: white;
+    width:100vw;
+    height: 100vh;
+    padding-top: 0;
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .box  {
-  border-radius: 15px;
+  border-radius: 400px;
   height: 100vh;
+    filter: invert(100%);
+   
 
 }
 
@@ -611,14 +623,12 @@ width:40%;
   cursor: pointer;
   transform-style: preserve-3d;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 18vh;
+
   
 }
 
 .spin:hover {
-    animation: spin 3s linear infinite;
+    animation: spin 1s linear infinite;
 
 }
 
@@ -640,10 +650,11 @@ width:40%;
 
 .box {
   background-image: url("https://svs.gsfc.nasa.gov/vis/a000000/a003600/a003615/earth_noClouds.0330.jpg");
-  height: 400px;
-  width: 450px;
-  background-size: 400px 400px;
+  height: 80vh;
+  width: 80vh;
+  background-size: 90vh 80vh;
   justify-content: center;
+
 
 
 }
