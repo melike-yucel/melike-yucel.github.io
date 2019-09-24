@@ -15,14 +15,6 @@ a {
 
 /* IP */
 
-/* background-color:red; */
-/* background-color:lime; */
-/* background-color:blue; */
-/* background-color:gray; */
-/* background-color:magenta; */
-
-
-
 .ip{
 width:100vw;
 height:100vh;
@@ -46,7 +38,6 @@ justify-content:center;
 }
 
 
-
 /* checkers */
 
 .checkers{
@@ -54,7 +45,6 @@ justify-content:center;
   height:100%;
   display:flex;
   flex-wrap: wrap;
-
 
 
 }
