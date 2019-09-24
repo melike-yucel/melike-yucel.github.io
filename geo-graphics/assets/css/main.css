@@ -1,6 +1,12 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+  @font-face {
+  font-family: "Waxwing Regular";
+  src: url("fonts/Waxwing-Regular.woff2") format("woff2"), url("fonts/Waxwing-Regular.woff") format("woff"), url("fonts/Waxwing-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
 }
 
 a {
@@ -32,9 +38,9 @@ justify-content:center;
 
 /* use vw size not px */
 .ip-text{
-	font-size: 15vw;
+	font-size: 11vw;
 	color: blue;
-	font-family: bookman;
+	font-family: 'Waxwing';
 
 
 }
