@@ -281,7 +281,7 @@ background: olive;
   font-family: arial;
   font-size:15vw;
   color: transparent;
-  background-image: linear-gradient(to right, gold ,gainsboro, skyblue);
+  background-image: linear-gradient(gold, gainsboro, skyblue);
   text-shadow: 55px 35px 15px gray;
   width:100vw;
   height:100vh;
