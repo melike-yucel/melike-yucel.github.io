@@ -18,7 +18,7 @@ a {
 .ip{
 width:100vw;
 height:100vh;
-background-color: red ;
+background-color: gainsboro ;
 display: flex;
 /* horizontal */
 align-items: center;
@@ -33,6 +33,7 @@ justify-content:center;
 	font-size: 15.8vw;
 	color: gainsboro;
 	font-family: 'gill sans';
+  text-shadow: 5px 0px 5px black;
 
 
 }
