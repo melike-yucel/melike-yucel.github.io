@@ -18,7 +18,7 @@ a {
 .ip{
 width:100vw;
 height:100vh;
-background-color: black ;
+background-color: gainsboro ;
 display: flex;
 /* horizontal */
 align-items: center;
@@ -30,9 +30,9 @@ justify-content:center;
 
 /* use vw size not px */
 .ip-text{
-	font-size: 10vw;
-	color: orange;
-	font-family: 'Waxwing';
+	font-size: 13vw;
+	color: gold;
+	font-family: 'helvetica';
 
 
 }
@@ -596,7 +596,7 @@ width:40%;
 /* flat earth */
 
 .bg-orange{
-    background-color: white;
+    background-color: orangered;
     width:100vw;
     height: 100vh;
     padding-top: 0;
@@ -610,7 +610,8 @@ width:40%;
 .box  {
   border-radius: 400px;
   height: 100vh;
-  filter: invert(100%);
+  filter: grayscale(100%);
+ 
    
 
 }
@@ -619,6 +620,7 @@ width:40%;
   cursor: pointer;
   transform-style: preserve-3d;
   display: flex;
+  mix-blend-mode: multiply;
 
   
 }
