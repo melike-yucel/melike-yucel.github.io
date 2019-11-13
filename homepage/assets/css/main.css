@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover{
+a: hover{
 	font-style: italic;
 }
 
@@ -48,8 +48,9 @@ font-family: monaco;
 font-size: 5vw;
 color: blue;
 border-radius:25vw;
-left:0px;
-top: 0%;
+
+height: 30vh;
+width: 30vh;
 }
 
 .two{
@@ -59,6 +60,8 @@ color: blue;
 border-radius:25vw;
 left:0px;
 top: 15%;
+height: 30vh;
+width: 30vh;
 }
 
 .three{
@@ -68,11 +71,8 @@ color: blue;
 border-radius:25vw;
 left:0px;
 top: 30%;
+height: 30vh;
+width: 30vh;
 }
-img {
-	width:480px;
-	margin: auto;
-	display: block;
-	margin-top: 20px;
-}
+
 
