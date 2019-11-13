@@ -1,0 +1,47 @@
+body {
+	font-family:monaco;
+	font-size: 18px;
+	color:black;
+}
+
+a:hover{
+	color: lightgray;
+}
+
+a:active{
+	color:lime;
+}
+
+.intro {
+	padding: 100px;
+	font-kerning: auto;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.thumbnail {
+	flex: 0 0 33.33%;
+}
+
+.thumbnail-content {
+	padding: 10px;
+}
+
+.thumbnail img {
+	width:100%;
+}
+
+
+p{
+	font-family: monaco;
+	
+}
+
+em{
+	font-style: italic;
+	
+}

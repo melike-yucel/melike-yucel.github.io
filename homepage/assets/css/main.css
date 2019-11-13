@@ -1,0 +1,73 @@
+body {
+	font-family: monaco;
+	font-size: 24px;
+	color: white;
+}
+
+a {
+	color:blue;
+}
+
+.fullscreen {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: #362b15;
+}
+
+.fullscreen-content {
+	font-size: 15vw;
+	text-align: center;
+}
+
+.main {
+	width: 60%;
+	margin: auto;
+}
+
+.projects{
+width:100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content:center;
+position: fixed;
+top:0;
+left:0;
+}
+
+.one{
+font-family: monaco;
+font-size: 5vw;
+color: blue;
+border-radius:25vw;
+left:0px;
+top: 0%;
+}
+
+.two{
+font-family: monaco;
+font-size: 5vw;
+color: blue;
+border-radius:25vw;
+left:0px;
+top: 15%;
+}
+
+.three{
+font-family: monaco;
+font-size: 5vw;
+color: blue;
+border-radius:25vw;
+left:0px;
+top: 30%;
+}
+img {
+	width:480px;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+}
+
