@@ -1,0 +1,55 @@
+/*ROMA TEST*/
+body
+{
+	font: normal 12px/1.4em Arial,Helvetica,sans-serif;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	background-color:#FFFFFF;
+}
+a:link,a:active,a:visited { 
+   color:#000000; 
+   text-decoration:none; 
+   font-weight:bold; 
+}
+a:hover { 
+   color:#ffaaaa; 
+}
+table {
+   width:100%;
+}
+td {
+   font:normal 12px/1.4em Arial,Helvetica,sans-serif; 
+   border-top:1px solid #FFCCCC; 
+   padding:1px 0px 1px 16px; 
+   vertical-align:top; 
+}
+img {
+   border:none; 
+}
+p {
+   width:45em;
+}
+
+.infor {
+   text-align:left;
+   display:block;
+}
+.groot {
+   display:block;
+   padding:0.5em;
+   text-align:center;
+}
+.binnen {
+   border:0px solid #ffffff;
+   padding:0px 16px;
+}
+.nojs {
+   width:100%;
+   padding:16px 0px;
+   background-color:#ffcccc;
+   font-weight:bold;
+   text-align:center;
+}
+ 
+/*ROMA TEST END*/

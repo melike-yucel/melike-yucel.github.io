@@ -1,0 +1,77 @@
+body {
+	font-family: monaco;
+	font-size: 24px;
+}
+
+a {
+	
+}
+
+a:link,a:active,a:visited { 
+   text-decoration:none; 
+   color: black;
+   
+}
+
+a:hover { 
+font-style: italic; 
+}
+
+.intro {
+	padding: 10px;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+.number{
+   flex:0 0 10%;
+}
+.title {
+	flex:0 0 50%;
+}
+
+.type {
+	flex:0 0 20%;
+}
+
+.date {
+	flex:0 0 20%;
+}
+
+td {
+   font:normal 12px/1.4em monaco; 
+   border-top:1px solid lime; 
+   padding:1px 0px 1px 16px; 
+   vertical-align:top; 
+}
+
+img {
+   border:none; 
+}
+p {
+   width:45em;
+}
+
+.infor {
+   text-align:left;
+   display:block;
+}
+.groot {
+   display:block;
+   padding:0.5em;
+   text-align:center;
+}
+.binnen {
+   border:0px solid #ffffff;
+   padding:0px 16px;
+}
